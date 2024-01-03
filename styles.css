@@ -1,0 +1,123 @@
+.course-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.course-carousel-area{
+    overflow-x: hidden;
+}
+.course-carousel-area .slick-slider{
+    width: calc( 100% + 16px );
+    margin-left: -8px;
+}
+.slick-track{
+    padding: 30px 0px;
+}
+.course-carousel-area .slick-list:before,
+.course-carousel-area .slick-list:after{
+    position: absolute;
+    content: "";
+    top:0;
+    right: 0;
+    height: 100%;
+    width: 8px;
+    z-index: 1;
+}
+.course-carousel-area .slick-list:after{
+    right: auto;
+    left: 0
+}
+
+.course-carousel .slick-prev:hover,
+.course-carousel .slick-next:hover{
+    box-shadow: 0 2px 8px 2px rgba(20,23,28,.15);
+}
+.course-carousel .slick-prev:focus,
+.course-carousel .slick-next:focus{
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1) !important;
+}
+
+.course-carousel .slick-prev,
+.course-carousel .slick-next{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    z-index: 1;
+    top: calc( 50% - 25px);
+}
+.course-carousel .slick-prev{
+    left: -28px;
+}
+.course-carousel .slick-prev.slick-disabled,
+.course-carousel .slick-next.slick-disabled{
+    opacity: 0;
+}
+.course-carousel .slick-prev:before{
+    content: url('prev_arrow.png');
+    line-height: 0;
+    opacity: 1
+}
+.course-carousel .slick-next{
+    right: -15px
+}
+.course-carousel .slick-next:before{
+    content:url('next_arrow.png');
+    line-height: 0;
+    opacity: 1;
+}
+.course-box-wrap:focus{
+    outline: none;
+}
+.course-box-wrap{
+    margin: 10px;
+}
+.course-box-wrap a{
+    color: #000;
+    text-decoration: none;
+
+}
+.course-box-wrap a:hover{
+    text-decoration: none;
+}
+.course-box{
+    /*box-shadow: 0px 8px 15px 0px #0000000f;*/
+    box-shadow: 0px 10px 25px #00000010;
+    position: relative;
+    background: #fff;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+}
+.course-box:before,
+.course-box:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    will-change: opacity;
+    transition: .2s ease;
+    -webkit-transition: .2s ease;
+    -ms-webkit-transition: .2s ease;
+    z-index: -1;
+}
+.course-box:hover:before{
+    opacity: 0;
+}
+.course-box:hover:after{
+    opacity: 1;
+}
+.course-box:hover{
+    box-shadow: 0px 12px 46px -20px #c9c9c9;
+    transition: all .3s ease;
+}
+
+.webui-popover{
+    box-shadow: 0 4px 16px rgb(128 134 144 / 25%);
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: #fff;
+}
