@@ -56,7 +56,7 @@
     opacity: 0;
 }
 .course-carousel .slick-prev:before{
-    content: url('prev_arrow.png');
+    content: url('/images/prev_arrow.png');
     line-height: 0;
     opacity: 1
 }
@@ -64,7 +64,7 @@
     right: -15px
 }
 .course-carousel .slick-next:before{
-    content:url('next_arrow.png');
+    content:url('/images/next_arrow.png');
     line-height: 0;
     opacity: 1;
 }
