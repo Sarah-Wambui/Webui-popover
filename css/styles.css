@@ -123,17 +123,7 @@
 }
 
 
-/* .cssanimations .in {
-    -webkit-transition: opacity 1s linear, margin 1s ease-in-out,
-    right 1s ease-in-out, left 1s ease-in-out, top 1s ease-in-out,
-    bottom 1s ease-in-out;
-    -moz-transition: opacity 1s linear, margin 1s ease-in-out,
-    right 1s ease-in-out, left 1s ease-in-out, top 1s ease-in-out,
-    bottom 1s ease-in-out;
-    transition: opacity 1s linear, margin 1s ease-in-out, right 1s ease-in-out,
-    left 1s ease-in-out, top 1s ease-in-out, bottom 1s ease-in-out;
-    -moz-backface-visibility: hidden;
-} */
+/* ------------hide-image --------------------- */
 
 .md-panels{
     position: absolute;
@@ -228,3 +218,65 @@
     justify-content: center;
     margin: 40px 0;
   }
+
+
+
+  /* ------accordion section ------- */
+.approach-section {
+    background: #ec5252;
+    color: #fff;
+    min-height: 300px;
+}
+.approach-content{
+    padding-left: 9%; 
+}
+.accrodion-section {
+    padding-right: 90px !important;
+    padding-top: 60px !important; /* Adjust padding as needed */
+    padding-bottom: 40px !important;
+}
+.approach-image{
+    background-image: url(/images/people-shaking-hands.jpg);
+    background-size: cover;
+    min-height: 300px;
+}
+.accordion-header {
+    background-color: #ec5252;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) ; 
+    transition: 0.4s;
+  }
+  
+  .accordion-header:after {
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;  
+  }
+  .active:after {
+    content: "\2716";
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .accordion-content {
+    background-color: #ec5252;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    color: #fff;
+  }
+  .button-accordion{
+    background-color: #ec5252 ;
+    border: none ; /* Remove the border from the button */
+    outline: none ; /* Remove the focus outline */
+    box-shadow: none; /* Remove the focus box-shadow */
+    color: #fff;
+}
