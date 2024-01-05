@@ -121,3 +121,110 @@
     border-radius: 10px;
     background-color: #fff;
 }
+
+
+/* .cssanimations .in {
+    -webkit-transition: opacity 1s linear, margin 1s ease-in-out,
+    right 1s ease-in-out, left 1s ease-in-out, top 1s ease-in-out,
+    bottom 1s ease-in-out;
+    -moz-transition: opacity 1s linear, margin 1s ease-in-out,
+    right 1s ease-in-out, left 1s ease-in-out, top 1s ease-in-out,
+    bottom 1s ease-in-out;
+    transition: opacity 1s linear, margin 1s ease-in-out, right 1s ease-in-out,
+    left 1s ease-in-out, top 1s ease-in-out, bottom 1s ease-in-out;
+    -moz-backface-visibility: hidden;
+} */
+
+.md-panels{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden; 
+  }
+  #about-member-header {
+    background-image:url("https://skillfix.co.ke/public/img/team/member_header.jpg");    
+    color:#fff;
+    top:0;
+    background-attachment: fixed;
+    z-index: 1;
+    position: fixed;
+    overflow: hidden;
+    height: 80vh;
+    background-color: #f2f5f7;
+  }
+  #about-member-content-wrapper{
+    top: 80vh;
+    z-index: 2;
+    background: #f2f5f7;
+    position: relative;
+  }
+  .about-member__heading {
+    position: absolute;
+    max-width: 980px;
+    padding-top: 250px;
+    top: 0;
+    width: 100%;
+    left: 17%;
+  }
+  
+  .about-member__heading h2 {
+    color: #fff;
+    font-size: 72px;
+  }
+  
+  .about-member-content__intro,
+  .about-member-content__more-info {
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  
+  .about-member-content p {
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  .about-member-content__image {
+    max-height: 400px;
+    overflow: hidden;
+    margin: 40px auto;
+    max-width: 980px;
+  }
+  
+  .about-member-content__quote {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: solid 1px #ec5252;
+    border-radius: 15px;
+  }
+  
+  .about-member-content__quote p {
+    text-align: center;
+  }
+  
+  .about-member-content__quote .tagline {
+    margin-bottom: unset;
+    font-size: 26px;
+  }
+  
+  .about-member-content__booking_info,
+  .about-member-content__booking_info p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .about-member-content__booking_info h3 {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+  
+  .md-services {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 40px 0;
+  }

@@ -12,7 +12,7 @@ $(document).ready(function (){
         ],
     });
 
-    $(' a.has-popover').webuiPopover({
+    $(' a.has-pop').webuiPopover({
         content: function () {
             var popoverContent = $('.webui-popover-content').html();
             
